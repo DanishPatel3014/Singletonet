@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  position: relative;
+  letter-spacing: 0.9px;
+}
+.p1 p {
+  font-size: 15px;
+  color: #fff;
+}
+.mainbanner {
+  background: linear-gradient(
+    117deg,
+    rgba(0, 30, 5, 1) 0%,
+    rgba(9, 71, 41, 1) 27%,
+    rgba(9, 133, 71, 1) 51%,
+    rgba(8, 194, 101, 1) 78%,
+    rgba(8, 255, 131, 1) 100%
+  );
+  height: 100vh;
+  align-items: flex-end;
+  display: flex;
+}
+.bl h1 {
+  font-size: 130px;
+  line-height: normal;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.bl h1 span {
+  color: #7BBD2A;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.mid {
+  align-items: end;
+}
+
+
+
+.mwrap {
+  text-align: right;
+}
+ul.menu-list {
+  display: block;
+}
+
+ul.menu-list > li {
+  display: inline-block;
+  margin-right: 55px;
+}
+
+ul.menu-list > li > a {
+  font-size: 17px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.br {
+  padding-left: 30%;
+}
