@@ -14,9 +14,12 @@ export default function Header() {
             </div>
             <div className='mwrap'>
               <ul className='menu-list'>
+               
+              <li><Link href={'/'}>home</Link></li>
                 <li><Link href={'/'}>about us</Link></li>
-                <li><Link href={'/'}>area of investment</Link></li>
-                <li><Link href={'/'}>partnership</Link></li>
+                <li><Link href={'/'}>services</Link></li>
+                <li><Link href={'/'}>staff augmentation</Link></li>
+                <li><Link href={'/'}>our expertise</Link></li>
                 <li><Link href={'/'}>contact us</Link></li>
               </ul>
             </div>
