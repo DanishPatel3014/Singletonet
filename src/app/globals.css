@@ -10,6 +10,15 @@ body {
   font-size: 15px;
   color: #fff;
 }
+.m-h h1 {
+  font-size: 60px;
+}
+.m2 h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+}
 /*  background: linear-gradient(
     117deg,
     rgba(0, 30, 5, 1) 0%,
@@ -46,7 +55,7 @@ video#vid {
 }
 
 .bl h1 span {
-  color: #7BBD2A;
+  color: #a5d738;
 }
 .header {
   position: absolute;
@@ -94,4 +103,108 @@ ul.sc-list {
   display: flex;
   gap: 30px;
   color: #fff
+}
+
+/* about us */
+.ab-sec {
+ 
+  background-color: #013A20;
+  position: relative;
+}
+.h-wrp
+{
+  text-transform: uppercase;
+   letter-spacing: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+.h-wrp h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.h-wrp h2 span {
+  color: #a5d738;
+}
+
+/* about-round text */
+.abtRoundMain svg {
+	color: #fff;
+	font-size: 65px
+}
+.abtRoundMain {
+	right: 7%;
+	top: 240px
+}
+.abtRoundMain,
+.counter,
+.roundedText {
+  position: absolute;
+  background-color: #a5d738;
+  height: 240px;
+  border-radius: 50%;
+}
+.roundedText,
+.roundedTextAbt {
+	animation: 20s linear infinite rotatory
+}
+@keyframes rotatory {
+	0% {
+		transform: rotate(0)
+	}
+
+	100% {
+		transform: rotate(360deg)
+	}
+}
+
+.sid h5 {
+  color: #fff;
+  display: inline-block;
+  line-height: 55px;
+  font-size: 35px;
+}
+
+.sid h5 span {
+ color: #a5d738;;
+}
+
+.sid h5  img {
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: baseline;
+}
+.countbx
+{
+  text-align: center;
+}
+.countbx h2 span
+{
+  color: #a5d738;
+}
+ul.tm-lst {
+  display: block;
+}
+
+ul.tm-lst>li {
+  display: inline-block;
+  margin-left: -19px;
+  vertical-align: middle;
+}
+.gbg {
+  width: 60px;
+  height: 60px;
+  background: #a5d738;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.gbg p{
+  font-size: 20px;
+  font-weight: 600;
+}
+ul.tm-lst>li img {
+  border-radius: 50%;
+  box-shadow: 0px 3px 9px 2px #00000096;
 }

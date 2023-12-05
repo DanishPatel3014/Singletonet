@@ -11,6 +11,7 @@ export default function Mainbanner() {
 
   return (
     <section className="mainbanner px-12">
+      
       <video  className="vid"
           id="vid"
           autoPlay={true}
