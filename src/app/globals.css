@@ -5,6 +5,7 @@
 body {
   position: relative;
   letter-spacing: 0.9px;
+  overflow-x: hidden;
 }
 .p1 p {
   font-size: 15px;
@@ -12,6 +13,7 @@ body {
 }
 .m-h h1 {
   font-size: 60px;
+  color: #fff;
 }
 .m2 h2 {
   font-size: 60px;
@@ -207,4 +209,44 @@ ul.tm-lst>li {
 ul.tm-lst>li img {
   border-radius: 50%;
   box-shadow: 0px 3px 9px 2px #00000096;
+}
+
+/* Services - section  */
+.ser-sec
+{
+  background-color: #16171a;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.loop {
+ display: flex;
+  width: 100%;
+  position: absolute;
+  top: -9%;
+}
+.loop h1 {
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: Orbitron, sans-serif !important;
+  -webkit-text-stroke: 1px #45474e;
+  color: transparent;
+  font-weight: 900;
+  padding: 0 20px;
+  font-size: 200px;
+  -webkit-text-stroke: 1px #a5d7382e;
+  animation-duration: 150s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-name: anim;
+}
+
+@keyframes anim {
+	0% {
+		transform: translateX(0)
+	}
+
+	100% {
+		transform: translateX(-100%)
+	}
 }

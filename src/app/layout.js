@@ -7,6 +7,7 @@ import '../assets/css/base.css'
 const barlow = Barlow({
    subsets: ['latin'], 
    weight: '400',
+  
   })
 
 export const metadata = {
