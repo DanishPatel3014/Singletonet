@@ -7,6 +7,7 @@ import { BsArrow90DegDown, BsArrowUpRight } from "react-icons/bs";
 export default function Aboutsec() {
   return (
     <section className="ab-sec py-36">
+     
       <div className="container  mx-auto">
         <div className="abtop m-h h-wrp mb-12">
           <h1>

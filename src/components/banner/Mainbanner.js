@@ -20,12 +20,12 @@ export default function Mainbanner() {
           controls={false}  >
         <source src="/skin.mp4" />
       </video>
-      <div>
+      <div className="w-full  mx-auto" >
       <div className="tp mid grid grid-cols-2">
         <div className="bl">
           <h1>
             <span>technology</span>
-            <br /> a sustainable future
+            <br /> a sustainable <br/>future
           </h1>
         </div>
         <div className="br p1">
